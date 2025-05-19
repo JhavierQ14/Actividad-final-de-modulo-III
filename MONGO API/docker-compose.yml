@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6.0                   # usa la versión oficial de MongoDB
+    container_name: mongo_employeeapi  # nombre del contenedor
+    restart: unless-stopped            # reiniciar salvo parada manual
+    ports:
+      - '27017:27017'                  # expone el puerto 27017 al host
+    volumes:
+      - mongo_data:/data/db           # persiste datos en un volumen
+
+volumes:
+  mongo_data:
+  

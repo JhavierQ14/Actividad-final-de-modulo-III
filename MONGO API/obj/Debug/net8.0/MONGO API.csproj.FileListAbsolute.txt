@@ -1,0 +1,47 @@
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/appsettings.Development.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/appsettings.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MONGO API
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MONGO API.deps.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MONGO API.runtimeconfig.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MONGO API.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MONGO API.pdb
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/AWSSDK.Core.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/AWSSDK.SecurityToken.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/DnsClient.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MongoDB.Bson.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MongoDB.Driver.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MongoDB.Driver.Core.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/MongoDB.Libmongocrypt.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/SharpCompress.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Snappier.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/ZstdSharp.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/runtimes/linux/native/libmongocrypt.so
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/runtimes/osx/native/libmongocrypt.dylib
+/workspaces/Actividad-final-de-modulo-III/MONGO API/bin/Debug/net8.0/runtimes/win/native/mongocrypt.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.csproj.AssemblyReference.cache
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.AssemblyInfoInputs.cache
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.AssemblyInfo.cs
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.csproj.CoreCompileInputs.cache
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.sourcelink.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets.build.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets.development.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets/msbuild.MONGO API.Microsoft.AspNetCore.StaticWebAssets.props
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets/msbuild.build.MONGO API.props
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MONGO API.props
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MONGO API.props
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/staticwebassets.pack.json
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/scopedcss/bundle/MONGO API.styles.css
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.csproj.Up2Date
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/refint/MONGO API.dll
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.pdb
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/MONGO API.genruntimeconfig.cache
+/workspaces/Actividad-final-de-modulo-III/MONGO API/obj/Debug/net8.0/ref/MONGO API.dll
