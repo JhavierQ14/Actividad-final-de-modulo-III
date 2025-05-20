@@ -6,6 +6,12 @@ using MONGO_API.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configura System.Text.Json para ignorar mayúsculas/minúsculas
+builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =>
+{
+    options.SerializerOptions.PropertyNameCaseInsensitive = true;
+});
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -72,30 +78,21 @@ app.MapGet("/employees/{id:length(24)}", async (string id, IEmployeeService svc)
         : Results.NotFound());
 
 
-// Crear un nuevo empleado
-app.MapPost("/employees", async ([FromBody] object body, IEmployeeService svc) =>
+// Crear uno o varios empleados
+// Para un solo empleado
+app.MapPost("/employees", async (Empleados empleado, IEmployeeService svc) =>
 {
-    if (body is null)
-        return Results.BadRequest("No se recibió información.");
+    empleado.Id = null; // Asegurarse que el ID sea null para que MongoDB lo genere
+    await svc.CreateAsync(empleado);
+    return Results.Created($"/employees/{empleado.Id}", empleado);
+});
 
-    // Intenta deserializar como lista
-    var empleados = System.Text.Json.JsonSerializer.Deserialize<List<Empleados>>(body.ToString() ?? "");
-    if (empleados != null && empleados.Count > 0)
-    {
-        foreach (var emp in empleados)
-            await svc.CreateAsync(emp);
-        return Results.Created("/employees", empleados);
-    }
-
-    // Si no es lista, intenta como objeto único
-    var empleado = System.Text.Json.JsonSerializer.Deserialize<Empleados>(body.ToString() ?? "");
-    if (empleado != null)
-    {
-        await svc.CreateAsync(empleado);
-        return Results.Created($"/employees/{empleado.Id}", empleado);
-    }
-
-    return Results.BadRequest("Formato de datos incorrecto.");
+// Para varios empleados
+app.MapPost("/employees/bulk", async (List<Empleados> empleados, IEmployeeService svc) =>
+{
+    foreach (var emp in empleados)
+        await svc.CreateAsync(emp);
+    return Results.Created("/employees", empleados);
 });
 
 

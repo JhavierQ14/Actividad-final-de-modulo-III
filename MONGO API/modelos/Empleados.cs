@@ -12,7 +12,7 @@ namespace MONGO_API.modelos
         // MongoDB guardará este campo como ObjectId
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
+        public string? Id { get; set; } = null;  // Inicializar como null
 
 
         // Nombre del empleado
